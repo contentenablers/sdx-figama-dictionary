@@ -7,10 +7,19 @@
       }
     }
   },
+  "test-2": {
+    "background": {
+      "color": {
+        "value": "#523",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "test"
+      "test",
+      "test-2"
     ]
   }
 }
