@@ -1,1 +1,16 @@
-{}
+{
+  "test": {
+    "color": {
+      "primary": {
+        "value": "#c04f4f",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "test"
+    ]
+  }
+}
