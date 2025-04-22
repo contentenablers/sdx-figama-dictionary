@@ -1,1 +1,121 @@
-{}
+{
+  "base": {
+    "primary": {
+      "red": {
+        "value": "#FF0A3C",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#002873",
+        "type": "color"
+      },
+      "white": {
+        "value": "#F6F6F6",
+        "type": "color"
+      }
+    }
+  },
+  "Button": {
+    "borderRadius": {
+      "priamry": {
+        "value": "100px",
+        "type": "borderRadius"
+      }
+    },
+    "padding": {
+      "primary": {
+        "value": "16px 24px",
+        "type": "sizing"
+      }
+    },
+    "primary": {
+      "color": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "backgroundColor": {
+        "value": "{base.primary.red}",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "color": "#F6F6F6",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "typography": {
+      "primary": {
+        "value": {
+          "fontFamily": "Roboto",
+          "fontWeight": "Medium",
+          "fontSize": "16px"
+        },
+        "type": "typography"
+      }
+    },
+    "import": {
+      "color": {
+        "value": "{base.primary.blue}",
+        "type": "color"
+      },
+      "backgroundColor": {
+        "value": "#FFB90014",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "color": "#FFB900",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "secondary": {
+      "color": {
+        "value": "{base.primary.red}",
+        "type": "color"
+      },
+      "backgroundColor": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "width": "0px",
+          "style": "solid",
+          "color": "#ffffff"
+        },
+        "type": "border"
+      }
+    },
+    "tertiary": {
+      "border": {
+        "value": {
+          "color": "{base.primary.blue}",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "color": {
+        "value": "{base.primary.blue}",
+        "type": "color"
+      },
+      "backgroundColor": {
+        "value": "#fffff",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "base",
+      "Button"
+    ]
+  }
+}
