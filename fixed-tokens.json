@@ -114,7 +114,7 @@
   "card": {
     "padding": {
       "primary": {
-        "value": "20px",
+        "value": "10px",
         "type": "sizing"
       }
     }
