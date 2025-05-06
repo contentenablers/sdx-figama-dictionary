@@ -119,12 +119,19 @@
       }
     }
   },
+  "accordion": {
+    "padding": {
+      "value": "10px",
+      "type": "spacing"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "base",
       "Button",
-      "card"
+      "card",
+      "accordion"
     ]
   }
 }
