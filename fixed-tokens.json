@@ -175,9 +175,11 @@
       "value": "12px",
       "type": "borderRadius"
     },
-    "backgroundcolor": {
-      "value": "#FAFAFA",
-      "type": "color"
+    "closed": {
+      "backgroundcolor": {
+        "value": "#FAFAFA",
+        "type": "color"
+      }
     },
     "title": {
       "color": {
@@ -194,10 +196,16 @@
     "primary": {
       "border": {
         "value": {
-          "color": "#f6f3f6",
+          "color": "rgba(0,40,115,0.08)",
           "width": "1px"
         },
         "type": "border"
+      }
+    },
+    "open": {
+      "backgroundColor": {
+        "value": "#f9f9f9",
+        "type": "color"
       }
     }
   },
