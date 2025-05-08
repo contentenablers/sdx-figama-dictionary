@@ -190,6 +190,15 @@
         "value": "rgba(51,51,51,0.5)",
         "type": "color"
       }
+    },
+    "primary": {
+      "border": {
+        "value": {
+          "color": "#f6f3f6",
+          "width": "1px"
+        },
+        "type": "border"
+      }
     }
   },
   "groupButton": {
@@ -254,6 +263,20 @@
       "type": "typography"
     }
   },
+  "list": {
+    "title": {
+      "color": {
+        "value": "rgba(51,51,51,0.8)",
+        "type": "color"
+      }
+    },
+    "subtitle": {
+      "color": {
+        "value": "rgba(51,51,51,0.5)",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -261,7 +284,8 @@
       "Button",
       "card",
       "accordion",
-      "groupButton"
+      "groupButton",
+      "list"
     ]
   }
 }
