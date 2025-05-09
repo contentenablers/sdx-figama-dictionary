@@ -309,6 +309,101 @@
       }
     }
   },
+  "chip": {
+    "primary": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "color": {
+        "value": "#002873",
+        "type": "color"
+      },
+      "typography": {
+        "value": {
+          "lineHeight": "27px",
+          "fontWeight": "500",
+          "fontSize": "18px"
+        },
+        "type": "typography"
+      },
+      "padding": {
+        "value": "16px",
+        "type": "spacing"
+      }
+    },
+    "border": {
+      "value": {
+        "color": "rgba(0,10,40,0.12)",
+        "width": "1px"
+      },
+      "type": "border"
+    },
+    "borderRadius": {
+      "value": "100px",
+      "type": "borderRadius"
+    },
+    "secondary": {
+      "typography": {
+        "value": {
+          "fontSize": "20px",
+          "fontWeight": "400",
+          "lineHeight": "30px"
+        },
+        "type": "typography"
+      },
+      "gap": {
+        "value": "8px",
+        "type": "sizing"
+      },
+      "padding": {
+        "value": "8px 16px 8px 8px",
+        "type": "spacing"
+      },
+      "backgroundColor": {
+        "value": "rgba(255,255,255,0.12)",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "navbar": {
+      "color": {
+        "value": "#002873",
+        "type": "color"
+      },
+      "backgroundColor": {
+        "value": "rgba(0,40,115,0.08)",
+        "type": "color"
+      },
+      "border": {
+        "value": {
+          "color": "#ffffff",
+          "width": "1px"
+        },
+        "type": "border"
+      },
+      "borderRadius": {
+        "value": "24px",
+        "type": "borderRadius"
+      },
+      "typograhpy": {
+        "value": {
+          "fontWeight": "400",
+          "fontSize": "12px",
+          "lineHeight": "16px",
+          "letterSpacing": "0.4px"
+        },
+        "type": "typography"
+      },
+      "padding": {
+        "value": "8px 16px",
+        "type": "spacing"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -318,7 +413,8 @@
       "accordion",
       "groupButton",
       "list",
-      "progressBar"
+      "progressBar",
+      "chip"
     ]
   }
 }
